@@ -1,0 +1,204 @@
+.Course {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 93%;
+  position: relative;
+}
+
+.app-lms-article {
+  padding: 30px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  gap: 30px;
+  overflow: auto;
+}
+
+.app-lms-article-title {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.app-lms-list {
+  margin: 0px;
+}
+
+.app-lms-paragraph > .bold,
+.app-lms-list .bold {
+  font-weight: bold;
+}
+
+.app-lms-underlying-app-marker {
+  background-color: blueviolet;
+  color: white;
+  margin-left: 6px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.app-lms-paragraph > img {
+  width: 100%;
+}
+
+.selected-by-app-lms {
+  -webkit-box-shadow: inset 0px 0px 0px 10px blueviolet;
+  -moz-box-shadow: inset 0px 0px 0px 10px blueviolet;
+  box-shadow: inset 0px 0px 0px 10px blueviolet;
+}
+
+.app-lms-article-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app-lms-node-instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.app-lms-instruction-headline {
+  background-color: grey;
+  color: white;
+  font-weight: 600;
+  font-size: large;
+  height: 40px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.app-lms-task {
+  display: flex;
+  gap: 20px;
+}
+
+.app-lms-task-checkbox {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+.app-lms-task-checkbox[data-status="loading"] {
+  background-color: yellow;
+}
+
+.app-lms-task-checkbox[data-status="success"] {
+  background-color: green;
+}
+
+.app-lms-task-checkbox[data-status="error"] {
+  background-color: red;
+}
+
+.app-lms-task-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app-lms-task-title {
+  font-weight: 600;
+}
+
+.app-lms-paragraph {
+  margin-bottom: 20px;
+  min-height: 20px;
+}
+
+.app-lms-text-span-edit:focus {
+  outline: none;
+}
+
+.app-lms-article-save-area {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+#app-lms-save-changes {
+  cursor: pointer;
+  background-color: rgb(67, 156, 89);
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+#app-lms-cancel-changes {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+}
+
+.app-lms-node-edit {
+  cursor: text;
+}
+
+.app-lms-hide-span {
+  display: none;
+}
+
+.app-lms-selected-text {
+  background-color: #3297fd;
+  color: white;
+  position: relative;
+}
+
+#app-lms-text-selection-popup {
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  height: 40px;
+  bottom: 28px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 1px 7px -1px rgba(0, 0, 0, 0.58);
+  box-shadow: 2px 1px 7px -1px rgba(0, 0, 0, 0.58);
+}
+
+.app-lms-no-content {
+  padding: 30px;
+}
+
+.app-lms-meter {
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.app-lms-meter span {
+  display: block;
+  height: 100%;
+}
+
+.app-lms-progress {
+  background-color: blueviolet;
+  animation-name: progressBar;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0%;
+  }
+
+  5% {
+    width: 80%
+  }
+
+  100% {
+    width: 98%;
+  }
+}

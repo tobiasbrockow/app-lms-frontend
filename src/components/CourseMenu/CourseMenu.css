@@ -1,0 +1,220 @@
+.CourseMenu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+  flex-grow: 1;
+  height: 93%;
+  align-items: center;
+}
+
+.CourseMenu h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.app-lms-course-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  overflow-y: auto;
+  width: 95%;
+}
+
+.app-lms-course-menu-module {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+}
+
+.app-lms-course-menu-module-new {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  border: 2px dashed #7800a2;
+  cursor: pointer;
+  color: #7800a2;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app-lms-course-menu-module-new:hover {
+  color: white;
+  background-color: #7800a2;
+}
+
+.app-lms-new-section {
+  border: 2px dashed #7800a2;
+  font-size: medium;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #7800a2;
+  cursor: pointer;
+  width: 94.5%;
+}
+
+.app-lms-new-section:hover {
+  color: white;
+  background-color: #7800a2;
+}
+
+.app-lms-module {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
+  background-color: white;
+  padding: 30px;
+}
+
+.app-lms-module-title {
+  font-weight: 800;
+  flex-grow: 1;
+}
+
+.app-lms-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.app-lms-active-article {
+  background-color: blueviolet;
+  color: white;
+}
+
+.app-lms-module-options-dots:after {
+  content: "\2807";
+  font-size: 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.app-lms-options-menu {
+  position: absolute;
+  min-width: 100px;
+  background-color: white;
+  box-shadow: 4px 2px 12px -4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 10;
+}
+
+.app-lms-options-menu > div {
+  cursor: pointer;
+}
+
+.app-lms-module .app-lms-options-menu {
+  top: 40px;
+  right: 0px;
+}
+
+.app-lms-section .app-lms-options-menu {
+  top: 40px;
+  right: 40px;
+}
+
+.app-lms-article .app-lms-options-menu {
+  top: 40px;
+  right: 70px;
+}
+
+.app-lms-section-menu-dots:after {
+  content: "\2807";
+  font-size: 20px;
+  color: gray;
+  z-index: 10;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.app-lms-title-wrapper {
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+
+.app-lms-section-title {
+  font-weight: 600;
+  flex-grow: 0.9;
+}
+
+.app-lms-course-menu-save-area {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.app-lms-course-menu-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+#app-lms-save-changes {
+  cursor: pointer;
+}
+
+#app-lms-cancel-changes {
+  cursor: pointer;
+}
+
+.app-lms-new-section-article {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.app-lms-new-article-section-add {
+  border: 2px dashed #7800a2;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #7800a2;
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.app-lms-new-article-section-add:hover {
+  color: white;
+  background-color: #7800a2;
+}
+
+.app-lms-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.app-lms-articles > DIV {
+  cursor: pointer;
+}
+
+.app-lms-article-title-edit {
+  flex-grow: 0.8;
+}

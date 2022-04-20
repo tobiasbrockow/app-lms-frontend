@@ -1,0 +1,35 @@
+.CourseNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  border-top: 1px solid #d3d3d3;
+  flex-shrink: 0;
+}
+
+.app-lms-course-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+
+#course-back-btn {
+  background-color: #ababab;
+}
+
+#course-page {
+  color: grey;
+}
+
+#course-next-btn {
+  background-color: blueviolet;
+}
+
+button#course-next-btn:disabled {
+  background-color: grey;
+}

@@ -1,0 +1,41 @@
+.DashboardNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.app-lms-dashboard-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  border: 10px solid #ffffff;
+}
+
+.app-lms-nav-count-courses {
+  height: 18px;
+  width: 18px;
+  background-color: #e6e6e6;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-nav-item {
+  background: #9b009e;
+  border: 10px solid #9b009e;
+  color: white;
+}
+
+.selected-nav-item > span {
+  background-color: white;
+  color: black;
+}

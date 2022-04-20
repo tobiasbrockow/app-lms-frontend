@@ -1,0 +1,20 @@
+.Sidebar {
+  height: 100vh;
+  width: 500px;
+  min-width: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.66);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.Sidebar::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  cursor: ew-resize;
+}

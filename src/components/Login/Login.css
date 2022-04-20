@@ -1,0 +1,77 @@
+.Login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app-lms-login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+  min-width: 300px;
+  max-width: 600px;
+  flex-grow: 1;
+  margin: 40px;
+}
+
+.app-lms-login > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.app-lms-login > h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.app-lms-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid #a4a4a4;
+  border-radius: 5px;
+  min-height: 60px;
+}
+
+.app-lms-login-form > input {
+  all: unset;
+  font-size: large;
+  margin-left: 10px;
+}
+
+.app-lms-login-form > input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px white inset;
+  box-shadow: 0 0 0 50px white inset;
+  -webkit-text-fill-color: #333;
+}
+
+.app-lms-login-form > input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px white inset;
+  box-shadow: 0 0 0 50px white inset;
+  -webkit-text-fill-color: #333;
+}
+
+.app-lms-login-form > span {
+  font-size: 11px;
+  font-weight: 700;
+  color: blueviolet;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.app-lms-login button {
+  all: unset;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  min-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}

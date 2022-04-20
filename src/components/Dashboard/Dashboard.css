@@ -1,0 +1,125 @@
+.Dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 30px;
+  overflow: auto;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.Dashboard-Body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.app-lms-course {
+  height: 320px;
+  width: 250px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.app-lms-lower-div {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 100%;
+}
+
+#app-lms-course-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#app-lms-course-des {
+  flex-grow: 1;
+}
+
+#app-lms-course-cta {
+  width: 110px;
+  height: 35px;
+  color: white;
+  font-size: 14px;
+  background: #7800a2;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app-lms-new-course-cta {
+  width: 110px;
+  height: 35px;
+  color: white;
+  font-size: 14px;
+  background: #2300a2;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-lms-new-course {
+  height: 320px;
+  width: 250px;
+  background-color: white;
+  border: 2px dashed #7800a2;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: #7800a2;
+  font-size: larger;
+}
+
+.app-lms-new-course:hover {
+  color: white;
+  background-color: #7800a2;
+}
+
+.app-lms-lower-div > button,
+.app-lms-lower-div > input,
+.app-lms-lower-div > input:focus,
+.app-lms-lower-div > textarea,
+.app-lms-lower-div > textarea:focus {
+  all: unset;
+}
+
+.app-lms-course-options-dots {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.app-lms-course-options-dots:after {
+  content: "\2807";
+  font-size: 30px;
+  color: gray;
+}
+
+.app-lms-course-options-menu {
+  position: absolute;
+  top: 40px;
+  right: 5px;
+  min-width: 100px;
+  background-color: white;
+  box-shadow: 4px 2px 12px -4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app-lms-course-options-menu > div {
+  cursor: pointer;
+  font-weight: 400;
+}
