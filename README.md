@@ -6,6 +6,10 @@ Create online trainings for web-applications directly on the underlying applicat
 
 https://applms.herokuapp.com/
 
+## Video Demo
+
+https://youtu.be/18LspXOJd2Q
+
 ## Features
 
 - Learn to use the underlying application with interactive content (e.g. highlights of elements, or action-based tasks)
